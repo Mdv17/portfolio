@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Methembe Vundla Marketing</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Creative marketing portfolio: paid lead generation, audience growth, social video and multi-market campaign creative, with results.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<style>
+/* Layout: print-production portfolio. Work sits on a quiet proof-paper ground; every piece carries a mono slug line (client · format · market · year) like a press proof. One accent: process magenta. */
+:root{
+  --paper:#F2F3F0; --sheet:#FFFFFF; --ink:#16181B; --ink-2:#4C524F; --rule:#D5D9D3; --accent:#B3134F; --accent-ink:#FFFFFF;
+  --c:#00A3E0; --m:#E0007A; --y:#FFD400; --k:#16181B;
+  --display:"Archivo","Arial Narrow",Arial,sans-serif; --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif; --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --gut:max(16px,env(safe-area-inset-left,0px)); --gutr:max(16px,env(safe-area-inset-right,0px));
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#111312;--sheet:#1B1E1C;--ink:#ECEEEA;--ink-2:#A7AEA9;--rule:#2E3330;--accent:#FF5A92;--accent-ink:#1A0610;--k:#ECEEEA;color-scheme:dark}}
+:root[data-theme="dark"]{--paper:#111312;--sheet:#1B1E1C;--ink:#ECEEEA;--ink-2:#A7AEA9;--rule:#2E3330;--accent:#FF5A92;--accent-ink:#1A0610;--k:#ECEEEA;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font:16px/1.6 var(--body);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1240px;margin:0 auto;padding-left:var(--gut);padding-right:var(--gutr)}
+.mono{font-family:var(--mono);font-size:12px;letter-spacing:.04em}
+.reg{display:inline-flex;gap:3px;vertical-align:middle}.reg i{width:10px;height:10px;border-radius:50%;display:block}
+.reg i:nth-child(1){background:var(--c)}.reg i:nth-child(2){background:var(--m)}.reg i:nth-child(3){background:var(--y)}.reg i:nth-child(4){background:var(--k)}
+/* top bar */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--paper) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--rule)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:21;background:var(--paper)}
+.top .wrap{display:flex;align-items:center;gap:16px;padding-block:10px;flex-wrap:wrap}
+.brand{font-family:var(--display);font-weight:800;font-stretch:118%;font-size:15px;letter-spacing:.01em;text-decoration:none;display:flex;align-items:center;gap:10px}
+.nav{display:flex;gap:4px;flex-wrap:wrap;margin-left:auto}
+.nav a{font-family:var(--mono);font-size:12px;text-decoration:none;padding:5px 9px;border-radius:999px;color:var(--ink-2)}
+.nav a:hover,.nav a:focus-visible{background:var(--sheet);color:var(--ink)}
+.nav a.switch{background:var(--ink);color:var(--paper)}
+.nav a.switch:hover{background:var(--accent);color:var(--accent-ink)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+/* hero */
+.hero{padding-block:56px 40px;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:40px;align-items:end}
+.hero h1{font-family:var(--display);font-weight:850;font-stretch:122%;font-size:clamp(38px,6.2vw,84px);line-height:.92;letter-spacing:-.02em;margin:14px 0 22px;text-wrap:balance}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero p.lede{font-size:19px;line-height:1.55;max-width:34em;color:var(--ink-2);margin:0}
+.slug{display:flex;gap:14px;flex-wrap:wrap;align-items:center;color:var(--ink-2)}
+.hero-art{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.hero-art img{width:100%;height:auto;display:block;background:var(--sheet);box-shadow:0 1px 0 var(--rule)}
+.hero-art .tall{grid-row:span 2}
+.facts{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
+.facts span{font-family:var(--mono);font-size:12px;border:1px solid var(--rule);border-radius:999px;padding:4px 10px;color:var(--ink-2)}
+/* sections */
+section.block{padding-block:56px;border-top:1px solid var(--rule)}
+.shead{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:32px;margin-bottom:28px;align-items:start}
+.shead .kicker{font-family:var(--mono);font-size:12px;color:var(--accent);letter-spacing:.08em;text-transform:uppercase}
+.shead h2{font-family:var(--display);font-weight:800;font-stretch:115%;font-size:clamp(28px,3.6vw,44px);line-height:1;letter-spacing:-.01em;margin:8px 0 0;text-wrap:balance}
+.shead p{margin:0;color:var(--ink-2);max-width:60ch}
+.shead p+p{margin-top:10px}
+h3.sub{font-family:var(--display);font-weight:750;font-stretch:110%;font-size:20px;margin:36px 0 14px;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+h3.sub .mono{color:var(--ink-2);font-weight:400}
+/* galleries */
+.masonry{columns:4 220px;column-gap:14px}
+.masonry.c3{columns:3 260px}
+.masonry.c5{columns:5 180px}
+.masonry figure{break-inside:avoid;margin:0 0 14px}
+.row{display:grid;gap:14px;margin-bottom:14px}
+.row.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+.row.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.row.wide{grid-template-columns:minmax(0,1fr)}
+.row.feat{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr) minmax(0,1fr)}
+figure.w{margin:0;display:flex;flex-direction:column;gap:7px;min-width:0}
+figure.w button{all:unset;cursor:zoom-in;display:block;background:var(--sheet);border-radius:3px;overflow:hidden;box-shadow:0 0 0 1px var(--rule)}
+figure.w button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+figure.w img{width:100%;height:auto;display:block;transition:transform .35s ease}
+figure.w button:hover img{transform:scale(1.015)}
+figcaption{display:flex;flex-direction:column;gap:1px;min-width:0}
+figcaption b{font-weight:600;font-size:14px;line-height:1.35}
+figcaption .mono{color:var(--ink-2);font-size:11px;line-height:1.45}
+.tag{display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;padding:1px 6px;border-radius:3px;background:var(--ink);color:var(--paper);margin-right:6px;vertical-align:1px}
+.tag.ai{background:transparent;color:var(--ink-2);box-shadow:inset 0 0 0 1px var(--rule)}
+.tag.acc{background:var(--accent);color:var(--accent-ink)}
+.note{font-size:14px;color:var(--ink-2);border-left:2px solid var(--accent);padding-left:12px;max-width:70ch;margin:18px 0 0}
+/* lightbox */
+dialog.lb{border:0;padding:0;background:transparent;max-width:min(96vw,1500px);max-height:94vh;color:var(--ink)}
+dialog.lb::backdrop{background:rgba(10,11,12,.86)}
+dialog.lb img{max-width:min(96vw,1500px);max-height:84vh;width:auto;height:auto;display:block;margin:0 auto;background:var(--sheet)}
+dialog.lb .cap{color:#EDEFEA;font-family:var(--mono);font-size:12px;text-align:center;padding:10px 4px 0}
+dialog.lb .x{position:fixed;top:calc(12px + env(safe-area-inset-top,0px));right:calc(12px + env(safe-area-inset-right,0px));font:600 14px var(--body);background:#EDEFEA;color:#16181B;border:0;border-radius:999px;padding:8px 14px;cursor:pointer}
+dialog.lb .nv{position:fixed;top:50%;transform:translateY(-50%);background:#EDEFEA;color:#16181B;border:0;border-radius:999px;width:42px;height:42px;font-size:20px;cursor:pointer}
+dialog.lb .prev{left:calc(10px + env(safe-area-inset-left,0px))}dialog.lb .next{right:calc(10px + env(safe-area-inset-right,0px))}
+/* footer */
+footer{border-top:1px solid var(--rule);padding-block:48px 64px}
+.contact{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:32px;align-items:end}
+.contact h2{font-family:var(--display);font-weight:850;font-stretch:120%;font-size:clamp(30px,4.4vw,56px);line-height:.95;margin:0 0 10px;text-wrap:balance}
+.clist{display:grid;gap:8px}
+.clist div{display:flex;gap:10px;align-items:center;justify-content:space-between;border-bottom:1px solid var(--rule);padding-block:8px;flex-wrap:wrap}
+.clist .mono{color:var(--ink-2)}
+.clist span.v{font-weight:500;user-select:all;word-break:break-all}
+.copy{font:500 12px var(--mono);background:var(--sheet);color:var(--ink);border:1px solid var(--rule);border-radius:999px;padding:4px 10px;cursor:pointer}
+.copy:hover{border-color:var(--accent)}
+.colophon{margin-top:36px;color:var(--ink-2)}
+@media (max-width:860px){
+  .hero,.shead,.contact{grid-template-columns:minmax(0,1fr)}
+  .hero{padding-block:36px 28px;gap:28px}
+  .row.feat,.row.three{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .row.feat>:first-child{grid-column:1/-1}
+  .nav{margin-left:0;width:100%;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+  .nav a{white-space:nowrap;flex:none}
+  .top .wrap{gap:8px}
+}
+@media (max-width:520px){.row.two,.row.three{grid-template-columns:minmax(0,1fr)} .masonry{columns:2 140px;column-gap:10px}.masonry figure{margin-bottom:10px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+</style>
+<style>
+.proof{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;border-block:1px solid var(--rule);margin-top:8px}
+.proof div{padding:22px 18px 20px;border-left:1px solid var(--rule);display:flex;flex-direction:column;gap:6px;min-width:0}
+.proof div:first-child{border-left:0;padding-left:0}
+.proof strong{font-family:var(--display);font-weight:850;font-stretch:118%;font-size:clamp(30px,3.6vw,46px);line-height:1;letter-spacing:-.01em;font-variant-numeric:tabular-nums}
+.proof strong small{font-size:.5em;font-weight:700;margin-left:2px}
+.proof span{font-size:14px;color:var(--ink-2);line-height:1.4}
+.proof .mono{font-size:11px}
+.case{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px;align-items:start}
+.case .col{min-width:0;display:flex;flex-direction:column;gap:22px}
+.brief{display:grid;grid-template-columns:110px minmax(0,1fr);gap:8px 16px;margin:0}
+.brief dt{font-family:var(--mono);font-size:11px;color:var(--ink-2);text-transform:uppercase;letter-spacing:.06em;padding-top:3px}
+.brief dd{margin:0}
+.panel{background:var(--sheet);border:1px solid var(--rule);border-radius:6px;padding:20px;min-width:0}
+.panel h4{margin:0 0 4px;font-size:15px;font-weight:600}
+.panel .mono.src{color:var(--ink-2);font-size:11px;margin-top:12px;display:block}
+.panel p.sub{margin:0 0 14px;color:var(--ink-2);font-size:14px}
+.funnel{display:grid;gap:0}
+.funnel .st{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:baseline;padding:10px 0;border-bottom:1px dashed var(--rule)}
+.funnel .st:last-child{border-bottom:0}
+.funnel .n{font-family:var(--display);font-weight:800;font-stretch:115%;font-size:26px;font-variant-numeric:tabular-nums}
+.funnel .lbl{font-size:14px;color:var(--ink-2)}
+.funnel .rate{font-family:var(--mono);font-size:12px;color:var(--accent);grid-column:1/-1;margin-top:-2px}
+.bars{display:grid;gap:8px}
+.bar{display:grid;grid-template-columns:52px minmax(0,1fr) 88px;align-items:center;gap:10px;font-size:13px;position:relative}
+.bar .lab{font-family:var(--mono);font-size:12px;color:var(--ink-2)}
+.bar .trk{height:18px;position:relative}
+.bar .fill{height:100%;background:color-mix(in srgb,var(--ink) 28%,var(--sheet));border-radius:0 4px 4px 0}
+.bar.best .fill{background:var(--accent)}
+.bar .val{font-variant-numeric:tabular-nums;font-weight:600;text-align:right}
+.bar .val small{font-weight:400;color:var(--ink-2);display:block;font-size:11px;line-height:1.1}
+.bar[data-tip]:hover::after,.bar[data-tip]:focus-visible::after{content:attr(data-tip);position:absolute;left:62px;bottom:calc(100% + 4px);background:var(--ink);color:var(--paper);font:500 12px var(--mono);padding:5px 8px;border-radius:4px;white-space:nowrap;z-index:3;pointer-events:none}
+.axis{display:grid;grid-template-columns:52px minmax(0,1fr) 88px;gap:10px;margin-top:4px}
+.axis div{display:flex;justify-content:space-between;font:11px var(--mono);color:var(--ink-2);border-top:1px solid var(--rule);padding-top:4px}
+.split{display:flex;height:22px;gap:2px;margin:6px 0 10px}
+.split i{display:block;height:100%}
+.split i:first-child{background:var(--accent);border-radius:4px 0 0 4px}
+.split i:last-child{background:color-mix(in srgb,var(--ink) 22%,var(--sheet));border-radius:0 4px 4px 0}
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--ink-2)}
+.legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px;background:var(--accent)}
+.legend span.o::before{background:color-mix(in srgb,var(--ink) 22%,var(--sheet))}
+table.t{width:100%;border-collapse:collapse;font-size:14px;font-variant-numeric:tabular-nums}
+table.t th{font:500 11px var(--mono);color:var(--ink-2);text-align:right;text-transform:uppercase;letter-spacing:.05em;padding:6px 8px;border-bottom:1px solid var(--rule)}
+table.t td{text-align:right;padding:8px;border-bottom:1px solid var(--rule)}
+table.t th:first-child,table.t td:first-child{text-align:left;padding-left:0}
+table.t tr:last-child td{border-bottom:0;font-weight:600}
+.tw{overflow-x:auto}
+ul.did{margin:0;padding:0;list-style:none;display:grid;gap:10px}
+ul.did li{padding-left:22px;position:relative}
+ul.did li::before{content:"";position:absolute;left:0;top:.62em;width:10px;height:2px;background:var(--accent)}
+.learn{border-left:2px solid var(--accent);padding:2px 0 2px 14px}
+.learn b{display:block;font-size:13px;font-family:var(--mono);color:var(--accent);font-weight:500;letter-spacing:.04em;text-transform:uppercase;margin-bottom:4px}
+.stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.stat{background:var(--sheet);border:1px solid var(--rule);border-radius:6px;padding:14px 16px;min-width:0}
+.stat strong{display:block;font-family:var(--display);font-weight:800;font-stretch:115%;font-size:30px;line-height:1.05;font-variant-numeric:tabular-nums}
+.stat span{font-size:13px;color:var(--ink-2)}
+.stat em{font-style:normal;font:500 12px var(--mono);color:var(--accent)}
+.vids{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.vid{display:flex;flex-direction:column;gap:8px;text-decoration:none;min-width:0}
+.vid .th{position:relative;border-radius:6px;overflow:hidden;aspect-ratio:9/13;background:var(--sheet);box-shadow:0 0 0 1px var(--rule)}
+.vid .th img{width:100%;height:100%;object-fit:cover;display:block}
+.vid .th::after{content:"▶  Watch";position:absolute;left:10px;bottom:10px;background:var(--ink);color:var(--paper);font:500 12px var(--mono);padding:5px 9px;border-radius:999px}
+.vid:hover .th::after{background:var(--accent);color:var(--accent-ink)}
+.vid b{font-size:14px;font-weight:600}
+.vid span{font:11px var(--mono);color:var(--ink-2)}
+.tl{display:grid;gap:0}
+.tl .j{display:grid;grid-template-columns:170px minmax(0,1fr);gap:18px;padding:18px 0;border-top:1px solid var(--rule)}
+.tl .j:first-child{border-top:0}
+.tl .when{font:12px var(--mono);color:var(--ink-2);padding-top:4px}
+.tl h4{margin:0;font-size:17px;font-weight:600}
+.tl p{margin:4px 0 0;color:var(--ink-2);font-size:15px}
+.skills{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.skills div{border-top:2px solid var(--ink);padding-top:10px;min-width:0}
+.skills b{font:500 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2);display:block;margin-bottom:6px}
+.skills p{margin:0;font-size:14px}
+@media (max-width:860px){.proof{grid-template-columns:repeat(2,minmax(0,1fr))}.proof div:nth-child(3){border-left:0;padding-left:0}.proof div{padding-left:14px}.proof div:nth-child(n+3){border-top:1px solid var(--rule)}.case{grid-template-columns:minmax(0,1fr);gap:28px}.skills{grid-template-columns:repeat(2,minmax(0,1fr))}.vids{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.tl .j{grid-template-columns:minmax(0,1fr);gap:4px}}
+@media (max-width:520px){.vids{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.brief{grid-template-columns:minmax(0,1fr);gap:2px}.brief dd{margin-bottom:8px}.stats{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.stat strong{font-size:24px}}
+</style>
+
+</head>
+<body>
+<header class="top"><div class="wrap"><a class="brand" href="#top"><span class="reg" aria-hidden="true"><i></i><i></i><i></i><i></i></span>Methembe Vundla</a>
+<nav class="nav" aria-label="Sections"><a href="#zambia">Lead gen</a><a href="#bulletin">Audience growth</a><a href="#organic">Social & video</a><a href="#markets">Multi-market</a><a href="#ecommerce">E-commerce</a><a href="#exploremore">ExploreMore</a><a href="#experience">Experience</a><a class="switch" href="design/" target="_blank" rel="noopener">Design portfolio ↗</a></nav></div></header>
+<main id="top"><div class="wrap hero" style="grid-template-columns:minmax(0,1fr)">
+<div><div class="slug mono"><span class="reg" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>CREATIVE MARKETER · MEDIA BUYER</span><span>SOUTH AFRICA · ZAMBIA · ZIMBABWE</span></div>
+<h1 style="max-width:15ch">I plan the campaign, make the ads, and <em>report what they return.</em></h1>
+<p class="lede">I'm Methembe Vundla. I run Meta campaigns, build the creative myself, sort the leads, and write the report. I've done it for a solar distributor across three branches, two newspapers, and small brands in Southern Africa.</p></div></div>
+<div class="wrap"><div class="proof">
+<div><strong>R8.85</strong><span>cost per WhatsApp conversation, 99 conversations from R876 of spend</span><span class="mono">SED ENERGY · ZAMBIA · AUG 2025</span></div>
+<div><strong>392K</strong><span>Facebook views in 60 days, up 1,311% on the period before</span><span class="mono">BULAWAYO BULLETIN · 2026</span></div>
+<div><strong>69.4K</strong><span>TikTok video views in two months, with 1,200 followers</span><span class="mono">SED ENERGY · AUG–SEP 2025</span></div>
+<div><strong>3<small>+2</small></strong><span>branches (JHB, PE, Lusaka) plus a Zimbabwe market and reseller partners, all from one creative system</span><span class="mono">SED ENERGY · 2025</span></div>
+</div></div><section class="block" id="zambia"><div class="wrap"><div class="shead"><div><span class="kicker">Case study 01 · Paid social</span><h2>99 WhatsApp leads in Zambia for R876</h2></div><div><p>SED Energy was opening sales in Zambia from its Lusaka branch. I planned and ran a Meta click-to-WhatsApp campaign for a Hinen inverter and Knyee battery combo, designed the carousel, then logged and sorted every chat that came in.</p></div></div><div class="case">
+<div class="col">
+<dl class="brief"><dt>Client</dt><dd>SED Energy (SED Power Zambia, Lusaka)</dd><dt>Goal</dt><dd>Start sales conversations on WhatsApp in a new market</dd><dt>Channel</dt><dd>Meta Ads: Facebook &amp; Instagram, carousel, messaging objective</dd><dt>Dates</dt><dd>6–17 August 2025 (12 days)</dd><dt>My role</dt><dd>Targeting, budget, creative, lead sorting, daily reports</dd></dl>
+<div class="panel"><h4>From impression to conversation</h4><p class="sub">Whole campaign, 6–17 August 2025</p>
+<div class="funnel">
+<div class="st"><span class="lbl">Impressions</span><span class="n">27,574</span></div>
+<div class="st"><span class="lbl">People reached</span><span class="n">11,396</span><span class="rate">frequency 2.42</span></div>
+<div class="st"><span class="lbl">Link clicks</span><span class="n">364</span><span class="rate">1.32% CTR · R2.41 per click</span></div>
+<div class="st"><span class="lbl">WhatsApp conversations</span><span class="n">99</span><span class="rate">27% of clickers started a chat · R8.85 each</span></div>
+</div><span class="mono src">Source: Meta Ads Manager export, “Zambia / Hinen&amp;Knyee Combo” ad set</span></div>
+<div class="row two" style="margin:0"><figure class="w" data-cap="Campaign creative: Knyee × Hinen · SED Power Zambia · carousel card · 1:1"><button type="button" aria-label="Enlarge: Campaign creative: Knyee × Hinen"><img src="img/knyee-zm-3.webp" width="1200" height="1200" alt="Campaign creative: Knyee × Hinen" loading="lazy" decoding="async"></button><figcaption><b>Campaign creative: Knyee × Hinen</b><span class="mono">SED Power Zambia · carousel card · 1:1</span></figcaption></figure><figure class="w" data-cap="Campaign creative: full control · SED Power Zambia · carousel card · 1:1"><button type="button" aria-label="Enlarge: Campaign creative: full control"><img src="img/knyee-zm-4.webp" width="1200" height="1200" alt="Campaign creative: full control" loading="lazy" decoding="async"></button><figcaption><b>Campaign creative: full control</b><span class="mono">SED Power Zambia · carousel card · 1:1</span></figcaption></figure></div>
+</div>
+<div class="col">
+<div class="panel"><h4>Cost per conversation by age</h4><p class="sub">35–44 was the cheapest and largest group. Hover a bar for spend.</p>
+<div class="bars"><div class="bar best" tabindex="0" data-tip="35–44: 35 conversations · R259.11 spent · R7.40 each"><span class="lab">35–44</span><span class="trk"><span class="fill" style="display:block;width:52.9%"></span></span><span class="val">R7.40<small>35 conversations</small></span></div><div class="bar" tabindex="0" data-tip="25–34: 27 conversations · R222.29 spent · R8.23 each"><span class="lab">25–34</span><span class="trk"><span class="fill" style="display:block;width:58.8%"></span></span><span class="val">R8.23<small>27 conversations</small></span></div><div class="bar" tabindex="0" data-tip="65+: 11 conversations · R101.87 spent · R9.26 each"><span class="lab">65+</span><span class="trk"><span class="fill" style="display:block;width:66.1%"></span></span><span class="val">R9.26<small>11 conversations</small></span></div><div class="bar" tabindex="0" data-tip="55–64: 7 conversations · R65.45 spent · R9.35 each"><span class="lab">55–64</span><span class="trk"><span class="fill" style="display:block;width:66.8%"></span></span><span class="val">R9.35<small>7 conversations</small></span></div><div class="bar" tabindex="0" data-tip="18–24: 4 conversations · R39.84 spent · R9.96 each"><span class="lab">18–24</span><span class="trk"><span class="fill" style="display:block;width:71.1%"></span></span><span class="val">R9.96<small>4 conversations</small></span></div><div class="bar" tabindex="0" data-tip="45–54: 15 conversations · R187.24 spent · R12.48 each"><span class="lab">45–54</span><span class="trk"><span class="fill" style="display:block;width:89.2%"></span></span><span class="val">R12.48<small>15 conversations</small></span></div></div><div class="axis"><span></span><div><span>R0</span><span>R7</span><span>R14</span></div><span></span></div><span class="mono src">Source: Meta breakdown by age, 6–17 Aug 2025 · total R875.80, 99 conversations</span></div>
+<div class="panel"><h4>Cost per conversation rose as frequency climbed</h4><p class="sub">The same people were seeing the ad again, which is a sign to refresh the creative.</p>
+<div class="tw"><table class="t"><thead><tr><th>Checkpoint</th><th>Spend</th><th>Chats</th><th>Frequency</th><th>Cost / chat</th></tr></thead><tbody>
+<tr><td>Day 3 (6–8 Aug)</td><td>R194.15</td><td>34</td><td>1.80</td><td>R5.71</td></tr>
+<tr><td>Day 7 (6–12 Aug)</td><td>R575.23</td><td>72</td><td>2.19</td><td>R7.99</td></tr>
+<tr><td>Day 12 (6–17 Aug)</td><td>R875.80</td><td>99</td><td>2.42</td><td>R8.85</td></tr></tbody></table></div>
+<span class="mono src">Source: three Meta exports pulled during the campaign</span></div>
+<div class="panel"><h4>Lead quality: most chats were real buyers</h4><p class="sub">I logged and categorised each chat by intent (pricing, custom quote, product question, job application, vendor pitch) and handed buyers to sales.</p>
+<div class="split" role="img" aria-label="61 of 69 logged chats were buying enquiries"><i style="width:88.4%"></i><i style="width:11.6%"></i></div>
+<div class="legend"><span>61 buying enquiries (88%)</span><span class="o">8 job applications or vendor pitches</span></div>
+<span class="mono src">Source: my lead sheets for 6–11 and 12–17 August (69 chats logged)</span></div>
+<div class="learn"><b>What I took from it</b>Templated replies for common questions, a same-day callback rule for pricing and quote requests, and separate ads for single components (batteries, breakers), because people kept asking for them.</div>
+</div></div></div></section><section class="block" id="bulletin"><div class="wrap"><div class="shead"><div><span class="kicker">Case study 02 · Organic growth</span><h2>Growing The Bulawayo Bulletin’s audience</h2></div><div><p>I run digital for The Bulawayo Bulletin, a community newspaper. I write every post the way you write a headline, with one hook, one fact and the local stakes, and pair it with a social card designed to stop the scroll.</p></div></div><div class="case">
+<div class="col">
+<div class="stats">
+<div class="stat"><strong>392,187</strong><span>views</span> <em>+1,311%</em></div>
+<div class="stat"><strong>16,204</strong><span>engagements</span> <em>+1,079%</em></div>
+<div class="stat"><strong>383</strong><span>new follows</span> <em>+3,092%</em></div>
+<div class="stat"><strong>US$5.84</strong><span>first page earnings</span> <em>monetisation on</em></div>
+</div>
+<p class="note" style="margin:0">Facebook Page insights, last 60 days (26 Aug–24 Oct 2026), compared with the 60 days before. One story peaked above 80,000 views in a single day.</p>
+<div class="panel" style="padding:10px"><figure class="w" data-cap="Bulawayo Bulletin Facebook insights · Meta Business Suite · 26 Aug–24 Oct 2026"><button type="button" aria-label="Enlarge: Bulawayo Bulletin Facebook insights"><img src="img/bb-insights.webp" width="780" height="395" alt="Bulawayo Bulletin Facebook insights" loading="lazy" decoding="async"></button><figcaption><b>Bulawayo Bulletin Facebook insights</b><span class="mono">Meta Business Suite · 26 Aug–24 Oct 2026</span></figcaption></figure></div>
+</div>
+<div class="col">
+<div class="masonry c3" style="columns:3 140px"><figure class="w" data-cap="“5 accused. 5 phones. 5 appearances.” · Court story card"><button type="button" aria-label="Enlarge: “5 accused. 5 phones. 5 appearances.”"><img src="img/bb-5accused.webp" width="1080" height="1080" alt="“5 accused. 5 phones. 5 appearances.”" loading="lazy" decoding="async"></button><figcaption><b>“5 accused. 5 phones. 5 appearances.”</b><span class="mono">Court story card</span></figcaption></figure><figure class="w" data-cap="“Hours before his death…” · National story card"><button type="button" aria-label="Enlarge: “Hours before his death…”"><img src="img/bb-chivayo.webp" width="1080" height="1080" alt="“Hours before his death…”" loading="lazy" decoding="async"></button><figcaption><b>“Hours before his death…”</b><span class="mono">National story card</span></figcaption></figure><figure class="w" data-cap="“14 of 20 refuse trucks grounded” · Data card"><button type="button" aria-label="Enlarge: “14 of 20 refuse trucks grounded”"><img src="img/bb-trucks.webp" width="960" height="1200" alt="“14 of 20 refuse trucks grounded”" loading="lazy" decoding="async"></button><figcaption><b><span class="tag ai">AI-assisted</span>“14 of 20 refuse trucks grounded”</b><span class="mono">Data card</span></figcaption></figure><figure class="w" data-cap="“Next home game. No fans.” · Sport story card"><button type="button" aria-label="Enlarge: “Next home game. No fans.”"><img src="img/bb-nofans.webp" width="1080" height="1080" alt="“Next home game. No fans.”" loading="lazy" decoding="async"></button><figcaption><b>“Next home game. No fans.”</b><span class="mono">Sport story card</span></figcaption></figure><figure class="w" data-cap="“They didn’t show. Now there are warrants.” · Court story card"><button type="button" aria-label="Enlarge: “They didn’t show. Now there are warrants.”"><img src="img/bb-warrants.webp" width="1080" height="1080" alt="“They didn’t show. Now there are warrants.”" loading="lazy" decoding="async"></button><figcaption><b>“They didn’t show. Now there are warrants.”</b><span class="mono">Court story card</span></figcaption></figure><figure class="w" data-cap="“US$64,000 stolen in 5 days” · Data card"><button type="button" aria-label="Enlarge: “US$64,000 stolen in 5 days”"><img src="img/bb-stolen.webp" width="960" height="1200" alt="“US$64,000 stolen in 5 days”" loading="lazy" decoding="async"></button><figcaption><b><span class="tag ai">AI-assisted</span>“US$64,000 stolen in 5 days”</b><span class="mono">Data card</span></figcaption></figure></div>
+<ul class="did"><li>Designed a repeatable card template: photo, red masthead tab, short uppercase headline.</li><li>Vary the opening of every post so the feed never reads the same twice.</li><li>Lead with proximity: Bulawayo names, wards and places first.</li></ul>
+</div></div></div></section><section class="block" id="organic"><div class="wrap"><div class="shead"><div><span class="kicker">Case study 03 · Social & video</span><h2>Shooting and editing solar content that travels</h2></div><div><p>At SED Energy I filmed product demos, installs and trade shows, edited them in Premiere Pro and CapCut, and reported monthly on what was working.</p></div></div><div class="case">
+<div class="col">
+<div class="panel"><h4>TikTok · 1 Aug–29 Sep 2025</h4>
+<div class="stats" style="margin-top:12px"><div class="stat"><strong>69,449</strong><span>video views</span></div><div class="stat"><strong>1,200</strong><span>followers</span></div><div class="stat"><strong>2,312</strong><span>likes</span></div><div class="stat"><strong>20K+</strong><span>views in a single day</span></div></div>
+<p class="sub" style="margin:14px 0 0">Most views came from the For You page (30,228 in the last week). Searches like “solar installation in Gauteng” showed demand for local how-to content.</p></div>
+<div class="panel"><h4>Facebook · 3 Aug–1 Oct 2025</h4>
+<div class="stats" style="margin-top:12px"><div class="stat"><strong>12,253</strong><span>views</span> <em>+133%</em></div><div class="stat"><strong>131</strong><span>interactions</span> <em>+126%</em></div></div>
+<p class="sub" style="margin:14px 0 0">Photos drove 54.5% of views, almost all from non-followers. Reels drove the shares. So: photos for discovery, Reels for engagement.</p>
+<span class="mono src">Source: my analytics reports to management, built from TikTok and Meta insights</span></div>
+</div>
+<div class="col">
+<div class="vids">
+<a class="vid" href="https://vm.tiktok.com/ZSg9ckDNY/" target="_blank" rel="noopener"><span class="th"><img src="img/vid-ps3000.webp" alt="Hinen PS3000 demo video" loading="lazy"></span><b>Hinen PS3000 demo</b><span>TikTok · portable power station · 32 likes · 9 saves</span></a>
+<a class="vid" href="https://vm.tiktok.com/ZSg9cp9hp/" target="_blank" rel="noopener"><span class="th"><img src="img/vid-farm.webp" alt="Farm installation video" loading="lazy"></span><b>Farm install near Johannesburg</b><span>TikTok · Raystech solid-state batteries</span></a>
+<a class="vid" href="https://www.facebook.com/share/v/1HXVdk5rmM/" target="_blank" rel="noopener"><span class="th"><img src="img/vid-zm-show.webp" alt="Zambia Agricultural Show video" loading="lazy"></span><b>97th Zambian Agricultural Show</b><span>Facebook · SED Power Zambia · July 2025</span></a>
+</div>
+<div class="row two" style="margin:0"><figure class="w" data-cap="Mascot series: New Year 2026 · SED Energy · seasonal post"><button type="button" aria-label="Enlarge: Mascot series: New Year 2026"><img src="img/hol-newyear.webp" width="1080" height="1080" alt="Mascot series: New Year 2026" loading="lazy" decoding="async"></button><figcaption><b>Mascot series: New Year 2026</b><span class="mono">SED Energy · seasonal post</span></figcaption></figure><figure class="w" data-cap="Lifestyle carousel · SED Energy · 4:5"><button type="button" aria-label="Enlarge: Lifestyle carousel"><img src="img/sed-comfort.webp" width="1200" height="1200" alt="Lifestyle carousel" loading="lazy" decoding="async"></button><figcaption><b>Lifestyle carousel</b><span class="mono">SED Energy · 4:5</span></figcaption></figure></div>
+</div></div></div></section><section class="block" id="markets"><div class="wrap"><div class="shead"><div><span class="kicker">Case study 04 · Multi-market creative</span><h2>One product, five markets</h2></div><div><p>SED sold the same products through Johannesburg, Port Elizabeth and Lusaka, into Zimbabwe, and through resellers. I localised every ad: currency, contacts, address and offer. That kept the brand consistent and made each one feel local.</p><p>For Black Friday 2025 I packaged the range into 13 kits matched to buyer profiles, from renters (PS3000 portable, R32,999) to large homes (6kW premium hybrid, R194,999), and designed the launch creative for each market.</p></div></div><div class="masonry c3" style="columns:3 200px"><figure class="w" data-cap="Johannesburg · Rand pricing · Sandton contacts"><button type="button" aria-label="Enlarge: Johannesburg"><img src="img/hinen-top4.webp" width="1080" height="1080" alt="Johannesburg" loading="lazy" decoding="async"></button><figcaption><b><span class="tag">JHB</span>Johannesburg</b><span class="mono">Rand pricing · Sandton contacts</span></figcaption></figure><figure class="w" data-cap="Port Elizabeth · Coega IDZ branch · Rand pricing"><button type="button" aria-label="Enlarge: Port Elizabeth"><img src="img/hinen-pe.webp" width="1080" height="1080" alt="Port Elizabeth" loading="lazy" decoding="async"></button><figcaption><b><span class="tag">PE</span>Port Elizabeth</b><span class="mono">Coega IDZ branch · Rand pricing</span></figcaption></figure><figure class="w" data-cap="Lusaka via Handyman’s · Kwacha pricing · reseller co-brand"><button type="button" aria-label="Enlarge: Lusaka via Handyman’s"><img src="img/hinen-handyman.webp" width="1080" height="1080" alt="Lusaka via Handyman’s" loading="lazy" decoding="async"></button><figcaption><b><span class="tag">Lusaka</span>Lusaka via Handyman’s</b><span class="mono">Kwacha pricing · reseller co-brand</span></figcaption></figure><figure class="w" data-cap="Zimbabwe · US dollar pricing"><button type="button" aria-label="Enlarge: Zimbabwe"><img src="img/hinen-zw.webp" width="1200" height="1200" alt="Zimbabwe" loading="lazy" decoding="async"></button><figcaption><b><span class="tag">ZW</span>Zimbabwe</b><span class="mono">US dollar pricing</span></figcaption></figure><figure class="w" data-cap="DKT Connections · Reseller co-brand · Centurion"><button type="button" aria-label="Enlarge: DKT Connections"><img src="img/hinen-dkt-6kw.webp" width="1080" height="1080" alt="DKT Connections" loading="lazy" decoding="async"></button><figcaption><b><span class="tag">Partner</span>DKT Connections</b><span class="mono">Reseller co-brand · Centurion</span></figcaption></figure><figure class="w" data-cap="Black Friday, Zambia · ZMW 17 030 · PS3000"><button type="button" aria-label="Enlarge: Black Friday, Zambia"><img src="img/hinen-bf-zm.webp" width="1024" height="1024" alt="Black Friday, Zambia" loading="lazy" decoding="async"></button><figcaption><b><span class="tag">Lusaka</span>Black Friday, Zambia</b><span class="mono">ZMW 17 030 · PS3000</span></figcaption></figure></div><div class="row three" style="margin-top:14px"><figure class="w" data-cap="Hinen solar training, first in Zambia · Event to recruit installers · Lusaka"><button type="button" aria-label="Enlarge: Hinen solar training, first in Zambia"><img src="img/hinen-training-zm.webp" width="1200" height="1200" alt="Hinen solar training, first in Zambia" loading="lazy" decoding="async"></button><figcaption><b><span class="tag">Lusaka</span>Hinen solar training, first in Zambia</b><span class="mono">Event to recruit installers · Lusaka</span></figcaption></figure><figure class="w" data-cap="“Like, join &amp; win” 6kW giveaway · Follower-growth campaign · Zambia"><button type="button" aria-label="Enlarge: “Like, join &amp; win” 6kW giveaway"><img src="img/zm-survey.webp" width="1080" height="1080" alt="“Like, join &amp; win” 6kW giveaway" loading="lazy" decoding="async"></button><figcaption><b><span class="tag">Lusaka</span>“Like, join &amp; win” 6kW giveaway</b><span class="mono">Follower-growth campaign · Zambia</span></figcaption></figure><figure class="w" data-cap="Trade-show media wall · SED · SED Zambia · SED Zimbabwe · PowerCo"><button type="button" aria-label="Enlarge: Trade-show media wall"><img src="img/banner-sed.webp" width="1600" height="1200" alt="Trade-show media wall" loading="lazy" decoding="async"></button><figcaption><b>Trade-show media wall</b><span class="mono">SED · SED Zambia · SED Zimbabwe · PowerCo</span></figcaption></figure></div></div></section><section class="block" id="ecommerce"><div class="wrap"><div class="shead"><div><span class="kicker">Case study 05 · E-commerce & operations</span><h2>Marketplace listings and the unglamorous work</h2></div><div><p>Beyond ads, I listed SED’s range on Amazon and Leroy Merlin, fixed the website’s product data, and kept the team’s email and IT running.</p></div></div><div class="case">
+<div class="col">
+<div class="stats"><div class="stat"><strong>29</strong><span>SKUs listed on Amazon.co.za</span></div><div class="stat"><strong>29</strong><span>SKUs prepared for Leroy Merlin</span></div><div class="stat"><strong>31</strong><span>broken website datasheet links fixed</span></div><div class="stat"><strong>Weekly</strong><span>activity reports to management</span></div></div>
+<ul class="did"><li>Wrote every listing: title, description, bullet features, dimensions, weight and media, across panels, inverters, batteries and all-in-one units.</li><li>Processed marketplace orders through Amazon Easy Ship. The order below is 4 × 555W panels.</li><li>Audited the website’s product pages and relinked every datasheet that pointed to the wrong file.</li><li>Set up and managed staff email accounts and acted as the office’s in-house IT support.</li></ul>
+</div>
+<div class="col"><figure class="w" data-cap="Amazon Seller Central: order ready for handover · SED Energy store · customer details removed"><button type="button" aria-label="Enlarge: Amazon Seller Central: order ready for handover"><img src="img/amazon-order.webp" width="1500" height="419" alt="Amazon Seller Central: order ready for handover" loading="lazy" decoding="async"></button><figcaption><b>Amazon Seller Central: order ready for handover</b><span class="mono">SED Energy store · customer details removed</span></figcaption></figure>
+<div class="panel"><h4>A typical week (10–14 November 2025)</h4>
+<div class="tw"><table class="t"><tbody>
+<tr><td>Mon</td><td style="text-align:left">Finished the Leroy Merlin listings</td></tr>
+<tr><td>Tue</td><td style="text-align:left">8 WhatsApp promo and status designs for sales</td></tr>
+<tr><td>Wed</td><td style="text-align:left">“Knyee 15kWh coming to Zambia” campaign design</td></tr>
+<tr><td>Thu</td><td style="text-align:left">New PowerCo logo, light and dark versions</td></tr>
+<tr><td style="font-weight:400">Fri</td><td style="text-align:left;font-weight:400">PowerCo cable datasheet, SED Power Africa letterhead</td></tr>
+</tbody></table></div></div>
+</div></div></div></section><section class="block" id="exploremore"><div class="wrap"><div class="shead"><div><span class="kicker">Current freelance · 2026</span><h2>ExploreMore Zimbabwe launch</h2></div><div><p>Thandi Mpofu hired me after I pitched a launch plan for ExploreMore, an online travel directory for Zimbabwe. I handle media buying, graphics and social media. The public launch on 1 November 2026 focuses on weekend getaways from Harare.</p></div></div><div class="case"><div class="col"><ul class="did"><li>Wrote the soft-launch strategy deck that won the contract.</li><li>Built the page’s voice as an established directory, not a “coming soon” startup.</li><li>Set the order of work: build trust and audience first, then switch on paid ads after launch.</li><li>Send a weekly report so the client sees where every dollar goes.</li></ul><figure class="w" data-cap="Facebook cover · ExploreMore · launching 1 November"><button type="button" aria-label="Enlarge: Facebook cover"><img src="img/em-cover-2.webp" width="1200" height="676" alt="Facebook cover" loading="lazy" decoding="async"></button><figcaption><b>Facebook cover</b><span class="mono">ExploreMore · launching 1 November</span></figcaption></figure></div><div class="col"><div class="row two" style="margin:0"><figure class="w" data-cap="Day-trip route map template · Harare to Lake Chivero · 1:1"><button type="button" aria-label="Enlarge: Day-trip route map template"><img src="img/em-route.webp" width="1080" height="1080" alt="Day-trip route map template" loading="lazy" decoding="async"></button><figcaption><b>Day-trip route map template</b><span class="mono">Harare to Lake Chivero · 1:1</span></figcaption></figure><figure class="w" data-cap="Weekly engagement question · “Where are you spending December?”"><button type="button" aria-label="Enlarge: Weekly engagement question"><img src="img/em-question.webp" width="1080" height="1080" alt="Weekly engagement question" loading="lazy" decoding="async"></button><figcaption><b>Weekly engagement question</b><span class="mono">“Where are you spending December?”</span></figcaption></figure></div></div></div></div></section><section class="block" id="experience"><div class="wrap"><div class="shead"><div><span class="kicker">Experience</span><h2>Where I’ve done it</h2></div><div><p>Full design portfolio, with editorial, identity and print work: <a href="design/" target="_blank" rel="noopener">open it here</a>.</p></div></div><div class="tl">
+<div class="j"><span class="when">Jan 2026 – now</span><div><h4>Marketing &amp; Digital Media Specialist · Vexodus Group</h4><p>The Soweto Bulletin &amp; The Bulawayo Bulletin. Social strategy for two community papers, full InDesign layout of every edition, advertiser packages (including Boxer Superstore), and magazine work for AFMA.</p></div></div>
+<div class="j"><span class="when">Feb 2025 – Jan 2026</span><div><h4>Marketing Representative · SED Energy</h4><p>Meta lead campaigns, ad and video creative for three branches and resellers, Amazon and Leroy Merlin listings, lead sorting and daily reporting.</p></div></div>
+<div class="j"><span class="when">Sep 2024 – Feb 2026</span><div><h4>Media Buyer Apprentice · MB School with João</h4><p>Full Stack Media Buyer Method: Facebook, Google, YouTube and TikTok ads for DTC e-commerce, creative testing frameworks, HYROS attribution.</p></div></div>
+<div class="j"><span class="when">Sep 2023 – Jan 2025</span><div><h4>Marketing Representative · Raystech Group</h4><p>Ran all marketing: campaigns, design, video, social and lead generation, then called leads to close sales.</p></div></div>
+</div>
+<div class="skills" style="margin-top:36px">
+<div><b>Performance</b><p>Meta Ads, Google Ads, lead generation, WhatsApp funnels, CRO</p></div>
+<div><b>Analytics</b><p>Meta &amp; TikTok insights, GA4, HYROS, Excel reporting</p></div>
+<div><b>Creative</b><p>Photoshop, Illustrator, InDesign, Premiere Pro, CapCut, copywriting</p></div>
+<div><b>Commerce</b><p>Amazon Seller Central, Leroy Merlin, product data, CRM</p></div>
+</div></div></section></main>
+<footer id="contact"><div class="wrap"><div class="contact">
+<div><span class="mono" style="color:var(--accent)">CONTACT</span><h2>Let's make something people act on.</h2>
+<p style="color:var(--ink-2);max-width:46ch;margin:0">Open to marketing, media buying and design roles, remote or in Southern Africa. Also see the graphic design portfolio: <a href="design/" target="_blank" rel="noopener">open it here</a>.</p></div>
+<div class="clist">
+<div><span class="mono">Email</span><span class="v">methembedvundla17@gmail.com</span><button class="copy" type="button" data-copy="methembedvundla17@gmail.com">Copy</button></div>
+<div><span class="mono">Phone / WhatsApp</span><span class="v">+263 71 994 7772</span><button class="copy" type="button" data-copy="+263719947772">Copy</button></div>
+<div><span class="mono">LinkedIn</span><a class="v" href="https://www.linkedin.com/in/methembe-vundla" target="_blank" rel="noopener">linkedin.com/in/methembe-vundla</a></div>
+<div><span class="mono">Based in</span><span>Bulawayo, Zimbabwe</span></div>
+</div></div>
+<p class="mono colophon"><span class="reg"><i></i><i></i><i></i><i></i></span>&nbsp; Methembe Vundla · Work 2023–2026 · All work shown was made for the brands named. Client figures are from Meta, TikTok and Amazon exports.</p>
+</div></footer>
+<dialog class="lb" id="lb" aria-label="Enlarged artwork"><button class="x" type="button">Close</button><button class="nv prev" type="button" aria-label="Previous">‹</button><button class="nv next" type="button" aria-label="Next">›</button><img alt=""><div class="cap"></div></dialog>
+
+<script>
+(function(){
+  const figs=[...document.querySelectorAll('figure.w')];
+  const dlg=document.getElementById('lb'), img=dlg.querySelector('img'), cap=dlg.querySelector('.cap');
+  let i=0;
+  function show(n){i=(n+figs.length)%figs.length;const f=figs[i];const im=f.querySelector('img');img.src=im.currentSrc||im.src;img.alt=im.alt;cap.textContent=f.dataset.cap||im.alt;}
+  figs.forEach((f,n)=>f.querySelector('button').addEventListener('click',()=>{show(n);dlg.showModal();}));
+  dlg.querySelector('.x').addEventListener('click',()=>dlg.close());
+  dlg.querySelector('.prev').addEventListener('click',e=>{e.stopPropagation();show(i-1)});
+  dlg.querySelector('.next').addEventListener('click',e=>{e.stopPropagation();show(i+1)});
+  dlg.addEventListener('click',e=>{if(e.target===dlg)dlg.close()});
+  document.addEventListener('keydown',e=>{if(!dlg.open)return;if(e.key==='ArrowRight')show(i+1);if(e.key==='ArrowLeft')show(i-1);});
+  document.querySelectorAll('.copy').forEach(b=>b.addEventListener('click',()=>{
+    const t=b.dataset.copy;const done=()=>{const o=b.textContent;b.textContent='Copied';setTimeout(()=>b.textContent=o,1400)};
+    try{navigator.clipboard.writeText(t).then(done,()=>sel(b))}catch(e){sel(b)}
+  }));
+  function sel(b){const v=b.parentElement.querySelector('.v');const r=document.createRange();r.selectNodeContents(v);const s=getSelection();s.removeAllRanges();s.addRange(r);}
+})();
+</script>
+
+</body>
+</html>
